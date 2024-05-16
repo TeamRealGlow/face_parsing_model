@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### how to use
 The model should always be inside "pre-trained".
 ```commandline
-from face-parsing.face-parser import 
+from face_parsing.face_parser import 
 
 facepaser = Parser("input_your_model_path")
 parsing = facepaser.out_parsing("input_your_image_path")
@@ -63,7 +63,7 @@ plt.show()
 
 ### example
 ```commandline
-from face-parsing.face-parser import 
+from face_parsing.face_parser import 
 
 facepaser = Parser(osp.join("best_model","examplemodel.pth"))
 parsing = facepaser.out_parsing(os.path.join("example","65.jpg"))
