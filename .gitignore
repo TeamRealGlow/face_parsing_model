@@ -3,3 +3,4 @@
 /.idea
 /res
 /img
+/pre_train/best_model/examplemodel.pth
