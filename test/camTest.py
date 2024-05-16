@@ -92,6 +92,6 @@ def evaluate(cp='model_final_diss.pth'):
 
 
 if __name__ == "__main__":
-    evaluate(cp='전이학습_best모델.pth')
+    evaluate(cp='examplemodel.pth')
 
 
