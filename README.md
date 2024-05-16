@@ -45,6 +45,10 @@ tzdata==2024.1
 zipp==3.18.1
 ```
 
+### our pretrain_model
+https://drive.google.com/file/d/16QtviOUcka3A8CMzsqIeLWhHAO5en1yT/view?usp=sharing
+
+
 ### install
 ```commandline
 pip install -r requirements.txt
@@ -72,6 +76,9 @@ plt.show()
 ```
 ### result
 original file
+
+
+
 
 <img src="example/65.jpg" width = 512, height = 512 >
 
