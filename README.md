@@ -95,6 +95,7 @@ output file
 
 ### References
 <hr>
-[face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch/)
+
+[face_parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch)
 
 [BiSeNet](https://github.com/CoinCheung/BiSeNet)
