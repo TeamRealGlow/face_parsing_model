@@ -11,11 +11,13 @@
     9.ear
 
 ### Python Version(conda install)
+<hr>
 ```commandline
 conda install -n face-parser Python==3.8.0
 ```
 
 ### requriements
+<hr>
 ```commandline
 colorama==0.4.6
 contourpy==1.1.1
@@ -46,15 +48,18 @@ zipp==3.18.1
 ```
 
 ### our pretrain_model
+<hr>
 https://drive.google.com/file/d/16QtviOUcka3A8CMzsqIeLWhHAO5en1yT/view?usp=sharing
 
 
 ### install
+<hr>
 ```commandline
 pip install -r requirements.txt
 ```
 
 ### how to use
+<hr>
 The model should always be inside "pre-trained".
 ```commandline
 from face_parsing.face_parser import 
@@ -66,6 +71,7 @@ plt.show()
 ```
 
 ### example
+<hr>
 ```commandline
 from face_parsing.face_parser import 
 
@@ -75,6 +81,7 @@ plt.imshow(parsing)
 plt.show()
 ```
 ### result
+<hr>
 original file
 
 
@@ -87,6 +94,7 @@ output file
 <img src="example/Figure_1.png" width = 512>
 
 ### References
+<hr>
 [face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch/tree/master?tab=readme-ov-file)
 
 [BiSeNet](https://github.com/CoinCheung/BiSeNet)
