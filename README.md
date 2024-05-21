@@ -85,3 +85,7 @@ original file
 output file
 
 <img src="example/Figure_1.png" width = 512>
+
+### References
+[face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch/tree/master?tab=readme-ov-file)
+[BiSeNet](https://github.com/CoinCheung/BiSeNet)
