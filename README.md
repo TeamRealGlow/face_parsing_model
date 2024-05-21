@@ -95,6 +95,6 @@ output file
 
 ### References
 <hr>
-[face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch/tree/master?tab=readme-ov-file)
+[face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch/)
 
 [BiSeNet](https://github.com/CoinCheung/BiSeNet)
