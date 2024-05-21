@@ -12,7 +12,7 @@ class Parser():
         input model path
         """
         self.model = BiSeNet(n_classes=9)
-        save_pth = osp.join('..','pre_train', cp)
+        save_pth = osp.join(cp)
         self.model.load_state_dict(torch.load(save_pth))
         self.model = self.model.to(self.device)
         self.model.eval()
@@ -33,7 +33,7 @@ class Parser():
             y_pred = self.model(image)[0]
             parsing = y_pred.squeeze(0).cpu().numpy().argmax(0)
             parsingimage = Image.fromarray((parsing).astype(np.uint8))
-            parsingimage = parsingimage.resize((w, h))
+            parsingimage = parsingimage.resize((w, h),Image.NEAREST)
             return parsingimage
 
     def out_parsing(self, imgPath):
@@ -43,7 +43,7 @@ class Parser():
 
 if __name__ == '__main__':
     import matplotlib.pyplot as plt
-    a = Parser(osp.join("best_model","examplemodel.pth"))
-    parsing = a.out_parsing(osp.join("..","img","oh.png"))
+    a = Parser(osp.join("example","examplemodel.pth"))
+    parsing = a.out_parsing(osp.join("example","65.jpg"))
     plt.imshow(parsing)
     plt.show()
